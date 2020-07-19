@@ -61,5 +61,5 @@ Rails.application.configure do
   # This will make it work in the could based environment
   # config.action_cable.disable_request_forgery_protection = true
   # This allows it in the heroku app
-  # config.action_cable.allowed_request_origins = ['https://mashrur-messageme_test.herokuapp.com']
+  config.action_cable.allowed_request_origins = ['https://dry-scrubland-89444.herokuapp.com/']
 end
